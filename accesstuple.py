@@ -21,3 +21,9 @@ print(flowers[2:])
 # negative indexes
 flowers=("sunflower","jasmin","lilly","lotus")
 print(flowers[-4:-1])
+
+# check if item exists
+flowers=("sunflower","jasmin","lilly","lotus")
+if "sunflower" in flowers:
+    print("yes,'sunflower' is in the tuple")
+
